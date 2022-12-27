@@ -4,7 +4,7 @@ using namespace std;
 
 int main()
 {
-    double L,R,A ;
+    double L,R,A;
 	cout << "Enter initial loan: ";
     cin >> L;
 	cout << "Enter interest rate per year (%): ";
@@ -39,10 +39,10 @@ int i=1;
         {
             A = L+(L*R/100);
         }
-	    cout << setw(13) << left << A ;
+	    cout << setw(13) << left << A;
 	    cout << setw(13) << left << (L+(L*R/100))-A;
 	    cout << "\n";
-        L = (L+(L*R/100))-A ;
+        L = (L+(L*R/100))-A;
         i++;
         }while(L > 1); 
         
